@@ -7,7 +7,7 @@
 ![Webpage Image 2](/images/values_2.png)
 ---
 ## Description
-- This is a environmental sensing device made using an Arduino ESP32. It can operate on its own with a power source. Its protective case fits the ESP32, and has room for a small battery. The case helps the device withstand rain and wind.
+- This is a environmental sensing device made using an Arduino ESP32. It can operate on its own with a power source. Its protective case fits the ESP32, and has room for a small battery. The case helps the device withstand rain and wind. The device neatly displays temperature, moisture, and light values to a webpage hosted on the network it is connected to. These values are also logged in the serial monitor along with the URL to visit.
 
 ## Temperature
 
@@ -46,6 +46,8 @@ const int wetVal = 1000;
 - moisture <= 1000 | moisture = 100% (wet)
 
 ## Extra Notes
+
+- Variables for connecting to a network are left blank as empty strings.
 
 - The battery seen in the first image does not work.
 
